@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- 便签图标 -->
+  <defs>
+    <linearGradient id="noteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#ffb800"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 便签主体 -->
+  <path d="M12 8 L40 8 L52 20 L52 56 L12 56 Z" fill="url(#noteGrad)" stroke="#e6a800" stroke-width="2"/>
+  
+  <!-- 折角 -->
+  <path d="M40 8 L40 20 L52 20" fill="#fff5cc" stroke="#e6a800" stroke-width="2"/>
+  
+  <!-- 横线 -->
+  <line x1="18" y1="28" x2="46" y2="28" stroke="#e6a800" stroke-width="2" stroke-linecap="round"/>
+  <line x1="18" y1="36" x2="46" y2="36" stroke="#e6a800" stroke-width="2" stroke-linecap="round"/>
+  <line x1="18" y1="44" x2="38" y2="44" stroke="#e6a800" stroke-width="2" stroke-linecap="round"/>
+</svg>
