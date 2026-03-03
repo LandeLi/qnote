@@ -3,6 +3,7 @@
 
 #include <QUuid>
 #include <QRegularExpression>
+#include <QRandomGenerator>
 
 namespace qnote {
 
@@ -138,6 +139,3 @@ Tag::Ptr Tag::create(const QString& name)
 }
 
 } // namespace qnote
-
-// 包含 QRandomGenerator 头文件
-#include <QRandomGenerator>

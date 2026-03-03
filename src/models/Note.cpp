@@ -3,6 +3,7 @@
 
 #include <QUuid>
 #include <QRegularExpression>
+#include <QJsonArray>
 
 namespace qnote {
 
@@ -212,6 +213,3 @@ Note::Ptr Note::create(const QString& title)
 }
 
 } // namespace qnote
-
-// 包含 QJsonArray 头文件
-#include <QJsonArray>
